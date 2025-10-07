@@ -1,0 +1,1 @@
+<h1>Contact</h1><p>Email us at info@themethod.example</p>

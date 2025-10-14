@@ -5,10 +5,10 @@
 <header class="site-header">
   <a class="logo" href="/">{siteTitle}</a>
   <nav>
-    <a href="/what-is-the-method">What is The Method</a>
-    <a href="/shows">Shows</a>
-    <a href="/classes">Classes</a>
-    <a href="/contact">Contact</a>
+    <a href="/the-method-japan-website/what-is-the-method">What is The Method</a>
+    <a href="/the-method-japan-website/shows">Shows</a>
+    <a href="/the-method-japan-website/classes">Classes</a>
+    <a href="/the-method-japan-website/contact">Contact</a>
   </nav>
 </header>
 

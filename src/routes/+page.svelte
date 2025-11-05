@@ -1,10 +1,3 @@
-<script>
-  import Header from '$lib/components/Header.svelte';
-  import Footer from '$lib/components/Footer.svelte';
-</script>
-
-<Header />
-
 <section class="hero">
   <div class="container hero-grid">
     <div>
@@ -45,4 +38,3 @@
     </p>
   </div>
 </section>
-<Footer />

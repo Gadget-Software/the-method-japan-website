@@ -4,8 +4,6 @@
   import '../app.css';
 </script>
 
-<slot />
-
 <svelte:head>
   <title>The Method</title>
   <meta name="description" content="Acting, performance, and classes with Jim at The Method School." />

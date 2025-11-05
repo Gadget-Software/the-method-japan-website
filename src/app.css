@@ -1,0 +1,161 @@
+:root {
+  --bg: #0f172a;
+  --paper: #ffffff;
+  --muted: #f1f5f9;
+  --accent: #e11d48;
+  --text: #0f172a;
+  --text-muted: #475569;
+  --radius-lg: 1.4rem;
+  --shadow: 0 20px 45px rgba(15, 23, 42, 0.12);
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
+  color: var(--text);
+  background: #fff;
+}
+
+.container {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+}
+
+.hero {
+  background: radial-gradient(circle at top, #0f172a 0%, #020617 55%, #000 100%);
+  color: #fff;
+  padding: 5.5rem 0 4.5rem;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.75rem;
+  color: #94a3b8;
+  margin-bottom: 0.4rem;
+}
+
+.hero h1 {
+  font-size: clamp(2.6rem, 5vw, 3.4rem);
+  margin: 0 0 1rem;
+}
+
+.hero-text {
+  color: #cbd5f5;
+  max-width: 32rem;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 1rem;
+  margin: 1.6rem 0 1rem;
+}
+
+.btn-primary,
+.btn-secondary {
+  display: inline-block;
+  border-radius: 9999px;
+  padding: 0.6rem 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: #fff;
+  box-shadow: 0 16px 40px rgba(225, 29, 72, 0.35);
+}
+
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.14);
+  color: #fff;
+}
+
+.hero-sub {
+  font-size: 0.8rem;
+  color: #94a3b8;
+}
+
+.hero-card {
+  background: rgba(15, 23, 42, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1.3rem;
+  padding: 1.3rem;
+  text-align: center;
+}
+.headshot {
+  width: 100%;
+  padding-top: 110%;
+  background: linear-gradient(160deg, #1e293b, #020617);
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.section {
+  padding: 4.5rem 0;
+}
+.section.muted {
+  background: var(--muted);
+}
+
+.narrow {
+  max-width: 650px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.credits-grid,
+.class-grid {
+  display: grid;
+  gap: 1.4rem;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+}
+
+.credit,
+.class-card {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1.2rem 1rem 1rem;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.06);
+}
+
+.small-note {
+  margin-top: 1.4rem;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.contact-form {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 0.6rem 0.8rem;
+  border-radius: 0.8rem;
+  border: 1px solid #cbd5f5;
+  font: inherit;
+}
+
+@media (max-width: 850px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+  .hero {
+    text-align: left;
+  }
+}

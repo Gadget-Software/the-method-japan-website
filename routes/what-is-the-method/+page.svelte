@@ -1,1 +1,0 @@
-<h1>What is The Method</h1><p>Explain what The Method means...</p>

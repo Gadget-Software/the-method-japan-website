@@ -1,9 +1,4 @@
-<script>
-  import Header from '$lib/components/Header.svelte';
-  import Footer from '$lib/components/Footer.svelte';
-</script>
 
-<Header />
 
 <main class="section">
   <div class="container narrow method-page">
@@ -82,5 +77,3 @@
     </p>
   </div>
 </main>
-
-<Footer />
